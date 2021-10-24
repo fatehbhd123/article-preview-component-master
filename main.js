@@ -7,6 +7,7 @@ share.addEventListener('click', function () {
 });
 document.addEventListener('click', function (e) {
     if (e.target !== share) {
-        shareMenu.classList.remove('active')
+        shareMenu.classList.remove('active');
+        share.classList.remove('active');
     }
 })
